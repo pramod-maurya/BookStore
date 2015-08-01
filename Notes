@@ -1,0 +1,20 @@
+Pravesh Notes
+----------------------------------------
+1) --
+Request post request in springs
+
+@RequestMapping(value = "/reg", method = RequestMethod.POST, consumes = "application/json", produces = "text/plain")
+	public @ResponseBody String createChangeRequest(@RequestBody Book book) {
+		return "YAHOOOO!!";
+}
+
+2) --
+Inner Class Object
+
+//(Inner Class)Error must be public accessible
+//docResponse is Super class or OuterClass
+ 
+DocResponse.Error docError = docResponse.new Error();
+
+3) --
+
